@@ -9,10 +9,10 @@ class Produto:
         self.preco = preco_produto
 
     def exibir(self):
-        print(f"Nome do produto: {self.nome}\n Preço do produto: {self.preco}")
+        print(f"Nome do produto: {self.nome}\nPreço do produto: {self.preco}")
     
 produto1 = Produto("Ovo de galinha", 12)
 produto1.exibir()
 
-produto1.preco(20)
+produto1.preco = 20
 produto1.exibir()

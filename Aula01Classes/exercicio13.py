@@ -5,6 +5,16 @@ class Produto:
         self.nome = nome
         self.preco = preco
     
-    @classmethod
     def aplicar_desconto(self, desconto):
-        desconto = self.preco - (self.preco*0.10)
+        return self.preco - (self.preco*desconto)
+    
+    def exibir(self, desconto):
+        novo_preco = self.aplicar_desconto(desconto)
+        print(f"Nome do produto: {self.nome}")
+        print(f"Preço do produto: R${self.preco: .2f}")
+        print(f"Preço final com desconto: R${novo_preco: .2f}")
+
+produto1 = Produto("Calculadora", 45)
+produto1.exibir(0.10)
+
+

@@ -1,0 +1,1 @@
+#Crie uma classe Livro com um método de classe criar_livro(titulo, autor) que cria e retorna uma instância de Livro com base nos parâmetros passados.

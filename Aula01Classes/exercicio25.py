@@ -1,0 +1,1 @@
+#Crie uma classe Produto com um atributo de classe desconto e um método estático aplicar_desconto(preco) que aplica o desconto no preço do produto.

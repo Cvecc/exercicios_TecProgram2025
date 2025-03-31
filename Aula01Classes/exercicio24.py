@@ -1,0 +1,1 @@
+#Crie uma classe Venda com um método estático calcular_imposto(valor) que retorna o valor do imposto sobre o valor passado.

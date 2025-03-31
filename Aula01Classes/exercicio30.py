@@ -1,0 +1,1 @@
+#Crie uma classe Cliente com o atributo nome e um método estático validar_cpf(cpf) que retorna True se o CPF for válido. Use esse método no método de instância cadastrar_cliente().

@@ -1,0 +1,1 @@
+#Crie uma classe Aluno com os atributos nome e nota. Adicione um método de classe alterar_nome() que altera o nome de todos os alunos de uma lista.

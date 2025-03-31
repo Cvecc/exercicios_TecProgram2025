@@ -1,0 +1,1 @@
+#Crie uma classe Curso com o atributo de instância nome e o atributo de classe quantidade_cursos. Adicione um método de classe alterar_quantidade_cursos() que modifica o valor de quantidade_cursos.

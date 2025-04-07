@@ -7,3 +7,24 @@ class Aluno:
         print(f"Nome do aluno: {self.nome}.")
         print(f"Nota: {self.nota}.\n")
     
+aluno1 = Aluno("Bárbara", 8.5)
+aluno2 = Aluno("Alberto", 5)
+aluno3 = Aluno("Luiz", 7)
+aluno4 = Aluno("Rosa", 10)    
+
+aluno1.exibir()
+aluno2.exibir()
+aluno3.exibir()
+aluno4.exibir()
+
+aluno1.nota = 10
+aluno2.nota = 5.5
+aluno3.nome = "João"
+aluno3.nota = 3
+aluno4.nome = "Carlota"
+aluno4.nota = 9
+
+aluno1.exibir()
+aluno2.exibir()
+aluno3.exibir()
+aluno4.exibir()

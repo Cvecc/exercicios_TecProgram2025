@@ -1,0 +1,1 @@
+#Desenvolva uma classe ContaBancaria com um atributo privado __senha e métodos acessores para acessar o saldo e realizar operações.

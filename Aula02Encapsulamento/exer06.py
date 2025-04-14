@@ -1,0 +1,1 @@
+#Desenvolva uma classe Usuario que armazene a __senha de forma segura e tenha um método validar_senha(senha) que compara a senha.

@@ -1,0 +1,1 @@
+#Crie uma classe Funcionario que encapsule o atributo privado __salario e tenha um método informar_salario() que retorna o valor.

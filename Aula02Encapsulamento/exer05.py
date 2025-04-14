@@ -1,0 +1,1 @@
+#Implemente uma classe Produto onde o atributo privado __preco pode ser acessado através de um método público get_preco().

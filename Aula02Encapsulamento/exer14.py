@@ -1,1 +1,28 @@
 #Crie uma classe Cliente com um atributo privado __cpf, um método cadastrar_cliente() e um método estático validar_cpf(cpf).
+class Cliente:
+    def __init__(self,nome):
+        self.nome = nome
+
+    def cadastrar_cliente(self,cpf):
+        if Cliente.validar_cpf(cpf):
+            self.__cpf = cpf
+            print(f"\n CPF do cliente {self.nome} é válido.\nCadastro realizado com sucesso.")
+        else:
+            print(f"CPF inválido: {cpf}. Cadastro não realizado.")
+
+    @staticmethod
+    def validar_cpf(cpf):
+        if len(cpf) != 11:
+            return False
+        
+        if cpf == cpf [0]*11:
+            return False
+        return True
+    
+    def mostrar_cpf(self):
+        return self.__cpf
+
+cliente1= Cliente("Leticia")
+cliente1.cadastrar_cliente("12345678912")
+
+print(f"\nCPF de {cliente1.nome} é {cliente1.mostrar_cpf()}")
